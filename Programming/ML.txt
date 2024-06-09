@@ -1,0 +1,56 @@
+Machine Learning
+1.Supervised Learning
+    -Regression
+        Numeric Outcome
+    -Classification
+        -Categorical Outcome
+            Binary
+            -Multiclass
+
+2. Unsupervised Learning (Preferred for stock forecast)
+    -Unsupervised Learning
+        -Dimensionality Reduction
+            PCA, ICA, UMAP, t-SNE
+        -Clustering
+            Hierarchical Risk Parity (HRP)
+            Pairs Trading
+            -K-principle (use for binary input feature)
+                -K-means
+                -K-modes (slightly better than k-means)
+            -Hierarchical clustering (dont use for binary input feature)
+                -AGNES - agglenumerative nesting
+                -DIANA - divisive analysis
+                -AP - affinity propagation
+        -Associative Rule Mining
+
+
+Tabular Data
+
+Principal Component Analysis (PCA)
+    Reduction of columns (Portfolio or Securities)
+        -Linear Combination 
+    1. Move mean(x,y) of s1,s2 to (0,0)
+    2. Linear combination
+        - Straight line go through (0,0)
+        - Rotate the line to find optimal gradient 
+            Maximize Eigen Values
+            Singular Value
+
+    BEST Number of Dimensional Reduction 
+        1. Kaiser Rule - Eigen value > 1
+        2. Elbow Chart - plot eigenvalue to number of dimensions (Scree Plot)
+        3. Parallel Analysis
+        4. PCA attributes
+    
+    
+
+Clustering
+    Reduction of Rows (Index or Days)
+    -Motivation
+        -Within cluster
+            -Minimize heterogeneity and maximize homogeneity
+        -Between clusters
+            -Maximize heterogeneity and minimize homogeneity
+
+    BEST Number of K reduction
+        1. Elbow Chart
